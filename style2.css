@@ -1,0 +1,78 @@
+
+body{
+    background-color: black;
+    background-image: url("");
+}
+
+h1{
+    color:rgb(108, 214, 101);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-weight: bolder;
+    margin-left: 490px;
+}
+
+h2{
+    color:rgb(98, 220, 57);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-weight: light;
+    margin-left: 430px
+}
+
+h3{
+    color:rgb(146, 241, 167);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-weight: bold;
+    margin-left: 30px
+}
+
+h4{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    text-justify:inherit;
+    text-align: justify;
+    padding-inline: 30px;
+}
+
+.aguia{
+    border-radius: 10px;
+    margin-left: 130px;
+    width: 1000px;
+}
+
+.info{
+    font-weight: bold;
+    color: rgb(108, 214, 101);
+    margin: 350px
+}
+
+.links {
+    padding: 10px; /* Espaçamento interno */
+    
+}
+
+.menu {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margem padrão */
+    display: block
+}
+
+.menu a {
+    display: block; /* Faz com que os links fiquem um abaixo do outro */
+    padding: 10px; /* Adiciona espaçamento interno aos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #448d13; /* Cor do texto dos links */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition:1s ; /* Adiciona transição suave no fundo */
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 255, 136));
+    font-size: 25px;
+    background-image: url("stars.jpg");
+    border-radius: 10px;
+    transition: 1s;
+    
+}
